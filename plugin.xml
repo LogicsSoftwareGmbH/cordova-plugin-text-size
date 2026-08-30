@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0" id="cordova-plugin-text-size" version="1.0.0">
+	<name>Text Size</name>
+	<description>Reports the system text size (iOS Dynamic Type, Settings &gt; Display &amp; Brightness &gt; Text Size) as a percentage so a WebView app can scale its text like the Android WebView does by default. iOS only.</description>
+	<license>UNLICENSED</license>
+	<keywords>cordova,ios,dynamic type,text size,accessibility</keywords>
+	<repo>https://github.com/LogicsSoftwareGmbH/cordova-plugin-text-size.git</repo>
+
+	<engines>
+		<engine name="cordova-ios" version=">=6.0.0" />
+	</engines>
+
+	<platform name="ios">
+		<js-module src="www/textsize.js" name="TextSize">
+			<clobbers target="cordova.plugins.textSize" />
+		</js-module>
+
+		<config-file target="config.xml" parent="/*">
+			<feature name="TextSize">
+				<param name="ios-package" value="LWTextSize" />
+			</feature>
+		</config-file>
+
+		<header-file src="src/ios/LWTextSize.h" />
+		<source-file src="src/ios/LWTextSize.m" />
+	</platform>
+</plugin>
