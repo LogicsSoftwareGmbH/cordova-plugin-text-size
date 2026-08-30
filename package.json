@@ -1,6 +1,6 @@
 {
 	"name": "cordova-plugin-text-size",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "Cordova plugin (iOS only): reports the system text size (Dynamic Type) as a percentage, initially and on every change.",
 	"cordova": {
 		"id": "cordova-plugin-text-size",

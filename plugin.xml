@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0" id="cordova-plugin-text-size" version="1.0.0">
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0" id="cordova-plugin-text-size" version="1.0.1">
 	<name>Text Size</name>
 	<description>Reports the system text size (iOS Dynamic Type, Settings &gt; Display &amp; Brightness &gt; Text Size) as a percentage so a WebView app can scale its text like the Android WebView does by default. iOS only.</description>
 	<license>MIT</license>

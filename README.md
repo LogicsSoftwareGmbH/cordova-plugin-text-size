@@ -29,14 +29,16 @@ Only one watcher per page; `watch` replaces an earlier watcher, and a page reloa
 ## Install
 
 ```
-cordova plugin add https://github.com/LogicsSoftwareGmbH/cordova-plugin-text-size.git
+cordova plugin add cordova-plugin-text-size
 ```
 
 or in `config.xml`:
 
 ```xml
-<plugin name="cordova-plugin-text-size" spec="https://github.com/LogicsSoftwareGmbH/cordova-plugin-text-size.git" source="git" />
+<plugin name="cordova-plugin-text-size" spec="1.0.1" />
 ```
+
+The plugin is also installable straight from GitHub (`cordova plugin add https://github.com/LogicsSoftwareGmbH/cordova-plugin-text-size.git#1.0.1`).
 
 No permissions, no `Info.plist` entries, no window/scene access (safe with the UIScene lifecycle of cordova-ios 8).
 
