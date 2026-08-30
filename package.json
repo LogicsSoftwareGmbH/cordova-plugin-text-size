@@ -20,5 +20,16 @@
 		"accessibility"
 	],
 	"author": "Logics Software GmbH",
-	"private": true
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/LogicsSoftwareGmbH/cordova-plugin-text-size/issues"
+	},
+	"homepage": "https://github.com/LogicsSoftwareGmbH/cordova-plugin-text-size#readme",
+	"files": [
+		"plugin.xml",
+		"src",
+		"www",
+		"LICENSE",
+		"README.md"
+	]
 }
